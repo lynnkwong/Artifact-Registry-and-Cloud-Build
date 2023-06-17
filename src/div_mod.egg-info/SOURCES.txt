@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/div_mod.egg-info/PKG-INFO
+src/div_mod.egg-info/SOURCES.txt
+src/div_mod.egg-info/dependency_links.txt
+src/div_mod.egg-info/entry_points.txt
+src/div_mod.egg-info/top_level.txt
+src/div_mod_pkg/__init__.py
+src/div_mod_pkg/div_mod.py
+src/div_mod_pkg/div_mod_script.py

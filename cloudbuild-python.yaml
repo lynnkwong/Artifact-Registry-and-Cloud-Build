@@ -1,0 +1,14 @@
+steps:
+  - name: python
+    entrypoint: pip
+    args: ["install", "-r", "requirements.txt", "--user"]
+  - name: python
+    entrypoint: python
+    args:
+      - "-m"
+      - "build"
+artifacts:
+    python_packages:
+    - repository: "https://${_LOCATION}-python.pkg.dev/$PROJECT_ID/${_REPOSITORY}/"
+      paths: ["dist/*"]
+

@@ -1,0 +1,2 @@
+[console_scripts]
+div-mod-example = div_mod_pkg:div_mod_example
